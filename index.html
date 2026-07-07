@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaan Türkoğlu | Karate Sitesi</title>
+    <meta
+      name="description"
+      content="Kaan Türkoğlu'nun karate, kuşaklar ve siyah kuşak parkuru oyunu sitesi."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader" aria-label="Site yükleniyor">
+      <div class="loader-stage" aria-hidden="true">
+        <span class="loader-light light-one"></span>
+        <span class="loader-light light-two"></span>
+        <span class="loader-spark spark-one"></span>
+        <span class="loader-spark spark-two"></span>
+        <span class="loader-spark spark-three"></span>
+        <div class="loader-emblem">
+          <span class="belt-orbit orbit-blue"></span>
+          <span class="belt-orbit orbit-yellow"></span>
+          <span class="loader-ring"></span>
+          <span class="loader-kick"></span>
+        </div>
+      </div>
+      <div class="loader-copy">
+        <span class="loader-kicker">Karate yolculuğu başlıyor</span>
+        <h1>Kaan Türkoğlu</h1>
+        <div class="loader-belt">
+          <span></span>
+        </div>
+        <p>Sarı kuşağa giden güçlü başlangıç</p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#anasayfa" aria-label="Kaan Türkoğlu anasayfa">
+        <span class="brand-mark">KT</span>
+        <span>Kaan Türkoğlu</span>
+      </a>
+      <nav class="tabs" aria-label="Site bölümleri">
+        <button class="tab active" data-page="home">Anasayfa</button>
+        <button class="tab" data-page="belts">Kuşaklar</button>
+        <button class="tab" data-page="game">Oyun</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page active" id="home" aria-labelledby="home-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">8 yaşında karateci</p>
+            <h1 id="home-title">Merhaba, ben Kaan.</h1>
+            <p>
+              Karateye gidiyorum, sarı kuşağa geçmeye hazırlanıyorum ve
+              Fenerbahçeliyim. Bu sitede karateyi, kuşakları ve antrenmanda
+              öğrendiğim güçlü hareketleri anlatıyorum.
+            </p>
+            <div class="hero-actions">
+              <button class="primary-action" data-page-jump="game">Oyunu Aç</button>
+              <button class="secondary-action" data-page-jump="belts">Kuşakları Gör</button>
+            </div>
+          </div>
+          <div class="dojo-scene" aria-label="Karate antrenman alanı">
+            <div class="mat-lines"></div>
+            <div class="sun"></div>
+            <img src="assets/karate-badge.svg" alt="Karate yapan çocuk rozeti" />
+          </div>
+        </div>
+
+        <section class="training-zone" aria-labelledby="bag-title">
+          <div class="zone-text">
+            <p class="eyebrow">Giriş antrenmanı</p>
+            <h2 id="bag-title">Kum torbasını hareket ettir ve vur</h2>
+            <p>
+              Fareyle ya da parmağınla kum torbasını sürükleyebilirsin. Üzerine
+              tıklayınca yumruk puanın artar ve torba sallanır.
+            </p>
+            <div class="score-panel" aria-live="polite">
+              <span>Vuruş</span>
+              <strong id="hitScore">0</strong>
+            </div>
+          </div>
+          <div class="bag-arena" id="bagArena">
+            <div class="bag-rope"></div>
+            <button class="punching-bag" id="punchingBag" aria-label="Vurulabilir kum torbası">
+              <span></span>
+            </button>
+          </div>
+        </section>
+
+        <section class="info-grid" aria-label="Karate bilgileri">
+          <article>
+            <h2>Karate Nedir?</h2>
+            <p>
+              Karate; disiplin, saygı, denge ve doğru tekniklerle yapılan bir
+              savunma sporudur. Antrenmanda duruş, yumruk, tekme, blok ve kata
+              çalışılır.
+            </p>
+          </article>
+          <article>
+            <h2>Dojo Kuralları</h2>
+            <p>
+              Selam vermek, hocayı dinlemek, arkadaşlara dikkat etmek ve
+              çalışırken kontrollü olmak karate derslerinin en önemli
+              parçalarındandır.
+            </p>
+          </article>
+          <article>
+            <h2>Benim Hedefim</h2>
+            <p>
+              Önce sarı kuşak, sonra daha çok çalışarak turuncu, yeşil, mavi,
+              kahverengi ve bir gün siyah kuşak!
+            </p>
+          </article>
+        </section>
+      </section>
+
+      <section class="page" id="belts" aria-labelledby="belts-title">
+        <div class="section-head">
+          <p class="eyebrow">Karate kuşakları</p>
+          <h1 id="belts-title">Kuşaklar ilerlemeyi gösterir</h1>
+          <p>
+            Her kuşak yeni teknikler öğrenmek, daha iyi odaklanmak ve saygılı
+            bir sporcu olmak için bir basamaktır.
+          </p>
+        </div>
+        <div class="belt-road">
+          <article style="--belt:#ffffff; --text:#1f2937">
+            <span>Beyaz</span>
+            <p>Başlangıç. Temel duruşlar ve selam öğrenilir.</p>
+          </article>
+          <article style="--belt:#facc15; --text:#1f2937">
+            <span>Sarı</span>
+            <p>Kaan'ın sıradaki hedefi. İlk güçlü teknikler başlar.</p>
+          </article>
+          <article style="--belt:#fb923c; --text:#1f2937">
+            <span>Turuncu</span>
+            <p>Daha hızlı kombinasyonlar ve denge çalışılır.</p>
+          </article>
+          <article style="--belt:#22c55e; --text:#0f172a">
+            <span>Yeşil</span>
+            <p>Teknikler daha temiz ve kontrollü yapılır.</p>
+          </article>
+          <article style="--belt:#2563eb; --text:#ffffff">
+            <span>Mavi</span>
+            <p>Güç, hız ve dikkat birlikte gelişir.</p>
+          </article>
+          <article style="--belt:#7c2d12; --text:#ffffff">
+            <span>Kahverengi</span>
+            <p>Siyah kuşağa hazırlık dönemidir.</p>
+          </article>
+          <article style="--belt:#111827; --text:#ffffff">
+            <span>Siyah</span>
+            <p>Büyük hedef. Disiplin ve uzun çalışma ister.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="page" id="game" aria-labelledby="game-title">
+        <div class="game-shell">
+          <div class="game-info">
+            <p class="eyebrow">Siyah kuşak parkuru</p>
+            <h1 id="game-title">Engelleri geç, siyah kuşağı kazan</h1>
+            <p>
+              Zıpla, yıldızları topla ve bitiş çizgisine ulaş. Klavyede boşluk
+              veya yukarı ok ile zıpla; telefonda oyun alanına dokun.
+            </p>
+            <div class="game-stats" aria-live="polite">
+              <span>Puan <strong id="gameScore">0</strong></span>
+              <span>En iyi <strong id="bestScore">0</strong></span>
+              <span id="gameState">Hazır</span>
+            </div>
+            <button class="primary-action" id="startGame">Başlat</button>
+          </div>
+          <div class="canvas-wrap">
+            <canvas id="beltGame" width="900" height="420" aria-label="Siyah kuşak parkuru oyunu"></canvas>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
